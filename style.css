@@ -1,3 +1,38 @@
-h1 {
-    color: blue;
-}
+body {
+  background: skyblue;
+  /*background: #FAFAFA;*/ }
+
+.topFolder img, .firstFolder img, .secondFolder img, .thirdFolder img {
+  object-fit: none;
+  object-position: 0 0;
+  width: 14px;
+  height: 14px; }
+
+.firstFile img, .secondFile img, .thirdFile img, .fourthFile img {
+  object-fit: none;
+  object-position: -28px 0px;
+  width: 14px;
+  height: 14px; }
+
+.topFolder, .topFolderPrivate {
+  padding-left: 0px; }
+
+.topFolderPrivate img {
+  object-fit: none;
+  object-position: -14px 0;
+  width: 14px;
+  height: 14px; }
+
+.firstFolder, .firstFile {
+  padding-left: 20px; }
+
+.secondFolder, .secondFile {
+  padding-left: 40px; }
+
+.thirdFolder, .thirdFile {
+  padding-left: 60px; }
+
+.fourthFile {
+  padding-left: 80px; }
+
+/*# sourceMappingURL=style.css.map */
