@@ -9,10 +9,10 @@ You can use any tools or libraries you'd like. Except an off-the-shelf tree cont
 ## Requirements
 
 ### Application
-* - [ ] You will create a new file `index.html` that renders an interactive file explorer shown in `mockup.png`
-* - [ ] You will use the data from `data.json` to render the actual folders & files.
+* - [x] You will create a new file `index.html` that renders an interactive file explorer shown in `mockup.png`
+* - [x] You will use the data from `data.json` to render the actual folders & files.
 * - [ ] You may make the data in `data.json` a global variable in your scripts (ie, so that you won't need to make an AJAX request to retrieve it)
-* - [ ] Provided code should be runnable by simply opening up `index.html`. No server should be needed.
+* - [x] Provided code should be runnable by simply opening up `index.html`. No server should be needed.
 * - [ ] Lay good groundwork and infrastructure for adding more advanced features. See below for more details.
 
 #### Appearance
