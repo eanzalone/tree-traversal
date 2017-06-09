@@ -1,11 +1,17 @@
-console.log("js hooked up");
+$(document).ready(function() {
+  console.log("ready!");
 
-$.getJSON(
-     "./data.json",function foo(result) {
-       $.each(result[1].data.children,
-        function (i, post) {
-          $("#fileViewer").append( '<br> HTML <br>' + post.data );       
-        }
-      )
-    }
- )
+  var items;
+
+  $.getJSON('data.json', function(data) {
+      console.log('json grabbed');
+    })
+    .done(function(data) {
+      items = data.children;
+      console.log(items);
+    })
+    .fail(function(data) {
+      console.log("Error!");
+    });
+
+}); // close document.ready
