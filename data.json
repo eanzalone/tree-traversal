@@ -37,7 +37,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "File",
+                  "name": "Main Simple Folder File",
                   "type": "file"
                 }
               ]
@@ -54,15 +54,6 @@
         }
       ]
     },
-
-
-
-
-
-
-
-
-    
     {
       "name": "Private folder",
       "type": "folder",
@@ -84,60 +75,24 @@
         }
       ]
     },
-
-
-
-
-
-
-
-
-    
     {
       "name": "Empty Folder",
       "type": "folder"
     },
-
-
-
-
-
-
-
-
-    
     {
       "name": "Empty Folder",
       "type": "folder"
     },
-
-
-
-
-
-
-
-
-    
     {
       "name": "Simple Folder",
       "type": "folder",
       "children": [
         {
-          "name": "File",
+          "name": "Simple Folder File",
           "type": "file"
         }
       ]
     },
-
-
-
-
-
-
-
-
-    
     {
       "name": "Poorly Named Folder",
       "type": "folder",

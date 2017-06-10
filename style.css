@@ -2,37 +2,57 @@ body {
   background: skyblue;
   /*background: #FAFAFA;*/ }
 
-.topFolder img, .firstFolder img, .secondFolder img, .thirdFolder img {
+#fileViewer {
+  border: 1px solid red; }
+  #fileViewer .fileHeader {
+    border: 1px solid pink; }
+  #fileViewer .fileLabel {
+    border: 1px solid blue; }
+  #fileViewer .fileTree {
+    border: 1px solid green; }
+  #fileViewer .fileFooter {
+    border: 1px solid orange; }
+
+.expandFolder {
+  object-fit: none;
+  object-position: -56px 0;
+  width: 14px;
+  height: 14px; }
+
+.topFolder {
+  color: darkred; }
+  .topFolder.private .fileTypeIcon {
+    object-fit: none;
+    object-position: -14px 0;
+    width: 14px;
+    height: 14px; }
+
+.topFolder .fileTypeIcon, .firstFolder .fileTypeIcon, .secondFolder .fileTypeIcon, .thirdFolder .fileTypeIcon {
   object-fit: none;
   object-position: 0 0;
   width: 14px;
   height: 14px; }
 
-.firstFile img, .secondFile img, .thirdFile img, .fourthFile img {
+.firstFile .fileTypeIcon, .secondFile .fileTypeIcon, .thirdFile .fileTypeIcon, .fourthFile .fileTypeIcon {
   object-fit: none;
-  object-position: -28px 0px;
-  width: 14px;
-  height: 14px; }
-
-.topFolder, .topFolderPrivate {
-  padding-left: 0px; }
-
-.topFolderPrivate img {
-  object-fit: none;
-  object-position: -14px 0;
+  object-position: -28px 0px !important;
   width: 14px;
   height: 14px; }
 
 .firstFolder, .firstFile {
+  color: darkorange;
   padding-left: 20px; }
 
 .secondFolder, .secondFile {
-  padding-left: 40px; }
+  color: yellow;
+  padding-left: 20px; }
 
 .thirdFolder, .thirdFile {
-  padding-left: 60px; }
+  color: green;
+  padding-left: 20px; }
 
 .fourthFile {
-  padding-left: 80px; }
+  color: darkblue;
+  padding-left: 20px; }
 
 /*# sourceMappingURL=style.css.map */

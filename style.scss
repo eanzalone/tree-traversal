@@ -2,9 +2,45 @@ body {
     background: skyblue;
     /*background: #FAFAFA;*/
 }
+
+#fileViewer {
+    border: 1px solid red;
+    .fileHeader {
+        border: 1px solid pink;
+    }
+    .fileLabel {
+        border: 1px solid blue;
+    }
+    .fileTree {
+        border: 1px solid green;
+    }
+    .fileFooter {
+        border: 1px solid orange;
+    }
+}
+
+.expandFolder {
+    object-fit: none;
+    object-position: -56px 0;
+    width: 14px;
+    height: 14px;
+}
+
+.topFolder {
+    // padding-left: 0px; 
+    color: darkred;
+    &.private {
+        .fileTypeIcon {
+            object-fit: none;
+            object-position: -14px 0;
+            width: 14px;
+            height: 14px;
+        }
+    }
+}
 .topFolder, .firstFolder, .secondFolder, .thirdFolder {
-    // color: red;
-    img {
+    // color: darkred;
+    .fileTypeIcon {
         object-fit: none;
         object-position: 0 0;
         width: 14px;
@@ -13,33 +49,26 @@ body {
 }
 .firstFile, .secondFile, .thirdFile, .fourthFile {
     // color: blue;
-    img {
+    .fileTypeIcon {
         object-fit: none;
-        object-position: -28px 0px;
-        width: 14px;
-        height: 14px;
-    }
-}
-.topFolder, .topFolderPrivate {
-    padding-left: 0px; 
-}
-.topFolderPrivate {
-    img {
-        object-fit: none;
-        object-position: -14px 0;
+        object-position: -28px 0px !important;
         width: 14px;
         height: 14px;
     }
 }
 .firstFolder, .firstFile {
+    color: darkorange;
     padding-left: 20px; 
 }
 .secondFolder, .secondFile {
-    padding-left: 40px;
+    color: yellow;
+    padding-left: 20px;
 }
 .thirdFolder, .thirdFile {
-    padding-left: 60px; 
+    color: green;
+    padding-left: 20px; 
 }
 .fourthFile {
-    padding-left: 80px; 
+    color: darkblue;
+    padding-left: 20px; 
 }
